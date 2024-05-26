@@ -1,0 +1,47 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(7, 9, 18); /* Background color of the top bar */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust the logo size as needed */
+    height: 40px;
+    margin-right: 10px; /* Space between logo and title */
+  }
+  
+  .title {
+    font-family: 'CursiveFont', cursive; /* Use a cursive font for the title */
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    margin-left: 20px; /* Space between title and search bar */
+  }
+  
+  .styled-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px; /* Add border-radius for the search bar */
+    border: none;
+    outline: none;
+    background-color: #faf8f8; /* Background color of the search bar */
+    color: rgb(23, 22, 22); /* Text color of the search bar */
+  }
+  
+  .logout-button {
+    background-color: #faf5f5; /* Background color of the button */
+    color: #080808; /* Text color of the button */
+    border: none;
+    border-radius: 20px; /* Add border-radius to the button */
+    padding: 10px 20px; /* Padding for the button */
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .logout-button:hover {
+    background-color: #f45b5b; /* Background color on hover (dark gray) */
+  }
